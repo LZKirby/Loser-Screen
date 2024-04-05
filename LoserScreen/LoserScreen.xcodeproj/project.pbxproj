@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E658F2C22AD580FF003484F2 /* LoserScreenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E658F2C12AD580FF003484F2 /* LoserScreenApp.swift */; };
+		E658F2C42AD580FF003484F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E658F2C32AD580FF003484F2 /* ContentView.swift */; };
+		E658F2C62AD580FF003484F2 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = E658F2C52AD580FF003484F2 /* Item.swift */; };
+		E658F2C82AD58100003484F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E658F2C72AD58100003484F2 /* Assets.xcassets */; };
+		E658F2CD2AD58100003484F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E658F2CC2AD58100003484F2 /* Preview Assets.xcassets */; };
+		E658F2D72AD58100003484F2 /* LoserScreenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E658F2D62AD58100003484F2 /* LoserScreenTests.swift */; };
+		E658F2E12AD58100003484F2 /* LoserScreenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E658F2E02AD58100003484F2 /* LoserScreenUITests.swift */; };
+		E658F2E32AD58100003484F2 /* LoserScreenUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E658F2E22AD58100003484F2 /* LoserScreenUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E658F2D32AD58100003484F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E658F2B62AD580FF003484F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E658F2BD2AD580FF003484F2;
+			remoteInfo = LoserScreen;
+		};
+		E658F2DD2AD58100003484F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E658F2B62AD580FF003484F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E658F2BD2AD580FF003484F2;
+			remoteInfo = LoserScreen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E658F2BE2AD580FF003484F2 /* LoserScreen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LoserScreen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E658F2C12AD580FF003484F2 /* LoserScreenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoserScreenApp.swift; sourceTree = "<group>"; };
+		E658F2C32AD580FF003484F2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E658F2C52AD580FF003484F2 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		E658F2C72AD58100003484F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E658F2C92AD58100003484F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E658F2CA2AD58100003484F2 /* LoserScreen.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LoserScreen.entitlements; sourceTree = "<group>"; };
+		E658F2CC2AD58100003484F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E658F2D22AD58100003484F2 /* LoserScreenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoserScreenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E658F2D62AD58100003484F2 /* LoserScreenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoserScreenTests.swift; sourceTree = "<group>"; };
+		E658F2DC2AD58100003484F2 /* LoserScreenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoserScreenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E658F2E02AD58100003484F2 /* LoserScreenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoserScreenUITests.swift; sourceTree = "<group>"; };
+		E658F2E22AD58100003484F2 /* LoserScreenUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoserScreenUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E658F2BB2AD580FF003484F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E658F2CF2AD58100003484F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E658F2D92AD58100003484F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E658F2B52AD580FF003484F2 = {
+			isa = PBXGroup;
+			children = (
+				E658F2C02AD580FF003484F2 /* LoserScreen */,
+				E658F2D52AD58100003484F2 /* LoserScreenTests */,
+				E658F2DF2AD58100003484F2 /* LoserScreenUITests */,
+				E658F2BF2AD580FF003484F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E658F2BF2AD580FF003484F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E658F2BE2AD580FF003484F2 /* LoserScreen.app */,
+				E658F2D22AD58100003484F2 /* LoserScreenTests.xctest */,
+				E658F2DC2AD58100003484F2 /* LoserScreenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E658F2C02AD580FF003484F2 /* LoserScreen */ = {
+			isa = PBXGroup;
+			children = (
+				E658F2C12AD580FF003484F2 /* LoserScreenApp.swift */,
+				E658F2C32AD580FF003484F2 /* ContentView.swift */,
+				E658F2C52AD580FF003484F2 /* Item.swift */,
+				E658F2C72AD58100003484F2 /* Assets.xcassets */,
+				E658F2C92AD58100003484F2 /* Info.plist */,
+				E658F2CA2AD58100003484F2 /* LoserScreen.entitlements */,
+				E658F2CB2AD58100003484F2 /* Preview Content */,
+			);
+			path = LoserScreen;
+			sourceTree = "<group>";
+		};
+		E658F2CB2AD58100003484F2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E658F2CC2AD58100003484F2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E658F2D52AD58100003484F2 /* LoserScreenTests */ = {
+			isa = PBXGroup;
+			children = (
+				E658F2D62AD58100003484F2 /* LoserScreenTests.swift */,
+			);
+			path = LoserScreenTests;
+			sourceTree = "<group>";
+		};
+		E658F2DF2AD58100003484F2 /* LoserScreenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E658F2E02AD58100003484F2 /* LoserScreenUITests.swift */,
+				E658F2E22AD58100003484F2 /* LoserScreenUITestsLaunchTests.swift */,
+			);
+			path = LoserScreenUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E658F2BD2AD580FF003484F2 /* LoserScreen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E658F2E62AD58100003484F2 /* Build configuration list for PBXNativeTarget "LoserScreen" */;
+			buildPhases = (
+				E658F2BA2AD580FF003484F2 /* Sources */,
+				E658F2BB2AD580FF003484F2 /* Frameworks */,
+				E658F2BC2AD580FF003484F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LoserScreen;
+			productName = LoserScreen;
+			productReference = E658F2BE2AD580FF003484F2 /* LoserScreen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E658F2D12AD58100003484F2 /* LoserScreenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E658F2E92AD58100003484F2 /* Build configuration list for PBXNativeTarget "LoserScreenTests" */;
+			buildPhases = (
+				E658F2CE2AD58100003484F2 /* Sources */,
+				E658F2CF2AD58100003484F2 /* Frameworks */,
+				E658F2D02AD58100003484F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E658F2D42AD58100003484F2 /* PBXTargetDependency */,
+			);
+			name = LoserScreenTests;
+			productName = LoserScreenTests;
+			productReference = E658F2D22AD58100003484F2 /* LoserScreenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E658F2DB2AD58100003484F2 /* LoserScreenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E658F2EC2AD58100003484F2 /* Build configuration list for PBXNativeTarget "LoserScreenUITests" */;
+			buildPhases = (
+				E658F2D82AD58100003484F2 /* Sources */,
+				E658F2D92AD58100003484F2 /* Frameworks */,
+				E658F2DA2AD58100003484F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E658F2DE2AD58100003484F2 /* PBXTargetDependency */,
+			);
+			name = LoserScreenUITests;
+			productName = LoserScreenUITests;
+			productReference = E658F2DC2AD58100003484F2 /* LoserScreenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E658F2B62AD580FF003484F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					E658F2BD2AD580FF003484F2 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					E658F2D12AD58100003484F2 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = E658F2BD2AD580FF003484F2;
+					};
+					E658F2DB2AD58100003484F2 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = E658F2BD2AD580FF003484F2;
+					};
+				};
+			};
+			buildConfigurationList = E658F2B92AD580FF003484F2 /* Build configuration list for PBXProject "LoserScreen" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E658F2B52AD580FF003484F2;
+			productRefGroup = E658F2BF2AD580FF003484F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E658F2BD2AD580FF003484F2 /* LoserScreen */,
+				E658F2D12AD58100003484F2 /* LoserScreenTests */,
+				E658F2DB2AD58100003484F2 /* LoserScreenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E658F2BC2AD580FF003484F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E658F2CD2AD58100003484F2 /* Preview Assets.xcassets in Resources */,
+				E658F2C82AD58100003484F2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E658F2D02AD58100003484F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E658F2DA2AD58100003484F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E658F2BA2AD580FF003484F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E658F2C42AD580FF003484F2 /* ContentView.swift in Sources */,
+				E658F2C62AD580FF003484F2 /* Item.swift in Sources */,
+				E658F2C22AD580FF003484F2 /* LoserScreenApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E658F2CE2AD58100003484F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E658F2D72AD58100003484F2 /* LoserScreenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E658F2D82AD58100003484F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E658F2E32AD58100003484F2 /* LoserScreenUITestsLaunchTests.swift in Sources */,
+				E658F2E12AD58100003484F2 /* LoserScreenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E658F2D42AD58100003484F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E658F2BD2AD580FF003484F2 /* LoserScreen */;
+			targetProxy = E658F2D32AD58100003484F2 /* PBXContainerItemProxy */;
+		};
+		E658F2DE2AD58100003484F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E658F2BD2AD580FF003484F2 /* LoserScreen */;
+			targetProxy = E658F2DD2AD58100003484F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E658F2E42AD58100003484F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E658F2E52AD58100003484F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		E658F2E72AD58100003484F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LoserScreen/LoserScreen.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LoserScreen/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LoserScreen/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				"INFOPLIST_KEY_UISupportsDocumentBrowser[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UISupportsDocumentBrowser[sdk=iphonesimulator*]" = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lkirby23-msu.idserve.net.LoserScreen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E658F2E82AD58100003484F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = LoserScreen/LoserScreen.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LoserScreen/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LoserScreen/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				"INFOPLIST_KEY_UISupportsDocumentBrowser[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UISupportsDocumentBrowser[sdk=iphonesimulator*]" = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lkirby23-msu.idserve.net.LoserScreen";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E658F2EA2AD58100003484F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lkirby23-msu.idserve.net.LoserScreenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoserScreen.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LoserScreen";
+			};
+			name = Debug;
+		};
+		E658F2EB2AD58100003484F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lkirby23-msu.idserve.net.LoserScreenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LoserScreen.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LoserScreen";
+			};
+			name = Release;
+		};
+		E658F2ED2AD58100003484F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lkirby23-msu.idserve.net.LoserScreenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LoserScreen;
+			};
+			name = Debug;
+		};
+		E658F2EE2AD58100003484F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lkirby23-msu.idserve.net.LoserScreenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LoserScreen;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E658F2B92AD580FF003484F2 /* Build configuration list for PBXProject "LoserScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E658F2E42AD58100003484F2 /* Debug */,
+				E658F2E52AD58100003484F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E658F2E62AD58100003484F2 /* Build configuration list for PBXNativeTarget "LoserScreen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E658F2E72AD58100003484F2 /* Debug */,
+				E658F2E82AD58100003484F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E658F2E92AD58100003484F2 /* Build configuration list for PBXNativeTarget "LoserScreenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E658F2EA2AD58100003484F2 /* Debug */,
+				E658F2EB2AD58100003484F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E658F2EC2AD58100003484F2 /* Build configuration list for PBXNativeTarget "LoserScreenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E658F2ED2AD58100003484F2 /* Debug */,
+				E658F2EE2AD58100003484F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E658F2B62AD580FF003484F2 /* Project object */;
+}
